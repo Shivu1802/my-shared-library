@@ -1,4 +1,4 @@
-#Building the project using Maven
+// Building the project using Maven
 def call(){
     sh 'mvn clean install -DskipTests'
 }

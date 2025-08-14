@@ -1,4 +1,4 @@
-#Defining function to run Maven test
+// Defining function to run Maven test
 def call(){
     sh 'mvn test'
 }
